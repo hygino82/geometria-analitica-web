@@ -1,0 +1,11 @@
+#entrada {
+    background-color: rgb(209, 176, 239);
+    border-radius: 5px;
+    width: 450px;
+}
+
+#resultado {
+    background-color: lawngreen;
+    border-radius: 5px;
+    width: 450px;
+}

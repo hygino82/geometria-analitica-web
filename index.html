@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/geometria_analitica.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Geometria Analítica</title>
+</head>
+
+<body>
+    <div id="entrada" class="container">
+        <h3>Distância entre dois pontos e equação geral da reta</h3>
+        <p>
+            Informe as coordenadas do ponto A
+            <input type="number" id="xa" value="3" required>
+            <input type="number" id="ya" value="7" required>
+        </p>
+        <br>
+        <p>
+            Informe as coordenadas do ponto B
+            <input type="number" id="xb" value="2" required>
+            <input type="number" id="yb" value="5" required>
+        </p>
+        <button id="btn-calcula" class="btn btn-primary">Calcular</button>
+        <button id="btn-limpa" class="btn btn-warning">Limpar</button>
+    </div>
+    <div id="resultado" class="container"></div>
+
+    <script src="/js/geometria_analitica.js"></script>
+</body>
+
+</html>
