@@ -4,8 +4,20 @@
     width: 450px;
 }
 
-#resultado {
+#distancia {
     background-color: lawngreen;
+    border-radius: 5px;
+    width: 450px;
+}
+
+#equacao {
+    background-color: lightcoral;
+    border-radius: 5px;
+    width: 450px;
+}
+
+#circunferencia {
+    background-color: yellow;
     border-radius: 5px;
     width: 450px;
 }
